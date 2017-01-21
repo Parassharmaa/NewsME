@@ -30,8 +30,7 @@ N.headlines()
 
 ***
 ###External Dependencies:
-*beautifulsoup4
-*urllib
+**beautifulsoup4
 
 ***
 ###Contribute
