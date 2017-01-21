@@ -1,5 +1,5 @@
 from newsme import NewsMe
-url = "http://businessinsider.com" 
+url = "http://timesofindia.indiatimes.com/"
 
 N = NewsMe(url)
 
