@@ -3,7 +3,7 @@
 
 `Python Script to scrap the news headlines from news-websites. (Accuracy 88%)`
 
-**
+***
 ###Usage::
 
 1.Get Beutified HTML
