@@ -8,7 +8,7 @@
 
 1.Get Beutified HTML
 ```python
-from newsme import NewsMe
+from newsme.nm import NewsMe
 url = "http://timesofindia.indiatimes.com/"
 
 N = NewsMe(url)
@@ -17,17 +17,17 @@ print(N.html())
 
 ```
 
-2.Get headlines:
+2.Get headlines with urls:
 ```python
-from newsme import NewsMe
+from newsme.nm import NewsMe
 url = "http://timesofindia.indiatimes.com/"
 
 N = NewsMe(url)
 
-for n in N.headlines():
-	print(i)
+N.headlines()
 
 ```
+
 ***
 ###External Dependencies:
 *beautifulsoup4
