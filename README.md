@@ -37,6 +37,7 @@ N = NewsMe(url, order=3)
 ```
 ***
 ###External Dependencies:
+
 * beautifulsoup4
 * urllib
 
