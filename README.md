@@ -1,7 +1,7 @@
 #NewsME  
 ##A Headline-Scrapper
 
-`Python Script to scrap the news headlines from news-websites.`
+`Python Script to scrap the news+urls headlines from news-websites.`
 
 ***
 ###Usage::
@@ -27,10 +27,11 @@ print(N.html())
 ```python
 
 N.headlines()
+#tuple containing (newsHeadline, url) is returned
 
 ```
 
-4.Change the order to fetch more accurate healines data
+4.Change the order to fetch more accurate headlines data
 ```python
 
 N = NewsMe(url, order=3)
