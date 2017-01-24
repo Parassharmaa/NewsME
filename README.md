@@ -29,7 +29,8 @@ print(N.html())
 N.headlines()
 
 ```
-4. Change the order to fetch more accurate healines data
+
+4.Change the order to fetch more accurate healines data
 ```python
 
 N = NewsMe(url, order=3)
