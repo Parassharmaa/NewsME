@@ -1,15 +1,21 @@
 #NewsME  
 ##A Headline-Scrapper
 
-`Python Script to scrap the news headlines from news-websites. (Accuracy 88%)`
+`Python Script to scrap the news headlines from news-websites.`
 
 ***
 ###Usage::
-
-1.Get Beutified HTML
+1.Importing 
 ```python
+
 from newsme.nm import NewsMe
-url = "http://timesofindia.indiatimes.com/"
+
+```
+
+2.Get Beutified HTML
+```python
+
+url = "http://thehindustantimes.com"
 
 N = NewsMe(url)
 
@@ -17,24 +23,25 @@ print(N.html())
 
 ```
 
-2.Get headlines with urls:
+3.Get headlines with urls:
 ```python
-from newsme.nm import NewsMe
-url = "http://timesofindia.indiatimes.com/"
-
-N = NewsMe(url)
 
 N.headlines()
 
 ```
+4. Change the order to fetch more accurate healines data
+```python
 
+N = NewsMe(url, order=3)
+
+```
 ***
 ###External Dependencies:
-*beautifulsoup4
-*urllib
+* beautifulsoup4
+* urllib
 
 ***
 ###Contribute
-New Features and Contributions are accepted
+New Features and Contributions are accepted.
 
 ####Under Construction
