@@ -27,7 +27,7 @@ print(N.html())
 ```python
 
 N.headlines()
-#tuple containing (newsHeadline, url) is returned
+#List of tuples containing (newsHeadline, url) is returned
 
 ```
 
