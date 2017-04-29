@@ -1,10 +1,10 @@
-#NewsME  
-##A Headline-Scrapper
+# NewsME  
+## A Headline-Scrapper
 
 `Python Script to scrap the news+urls headlines from news-websites.`
 
 ***
-###Usage::
+### Usage::
 1.Importing 
 ```python
 
@@ -38,13 +38,11 @@ N = NewsMe(url, order=3)
 
 ```
 ***
-###External Dependencies:
+### External Dependencies:
 
 * beautifulsoup4
 * urllib
 
 ***
-###Contribute
+### Contribute
 New Features and Contributions are accepted.
-
-####Under Construction
