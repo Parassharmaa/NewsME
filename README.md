@@ -15,7 +15,7 @@ from newsme.nm import NewsMe
 2.Get Beutified HTML
 ```python
 
-url = "http://thehindustantimes.com"
+url = "http://timesofindia.com"
 
 N = NewsMe(url)
 
